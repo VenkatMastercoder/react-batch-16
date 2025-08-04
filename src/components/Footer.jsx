@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import UserStore from "../store/userStore";
+import UserStore from "../store/UserStore";
 
 const Footer = () => {
   const data = useContext(UserStore);

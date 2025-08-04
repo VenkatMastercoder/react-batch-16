@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import useOnlineState from "../hooks/useOnlineState";
 import { useContext } from "react";
-import UserStore from "../store/userStore";
+import UserStore from "../store/UserStore";
 
 const Header = () => {
   const status = useOnlineState(); // True or False
