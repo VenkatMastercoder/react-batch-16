@@ -1,4 +1,4 @@
-const Herosection = () => {
+const HeroSection = () => {
   return (
     <>
       <section className="bg-white py-8 antialiased dark:bg-gray-900 md:py-16">
@@ -156,4 +156,4 @@ const Herosection = () => {
   );
 };
 
-export default Herosection;
+export default HeroSection;
