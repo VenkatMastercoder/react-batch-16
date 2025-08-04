@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { Outlet } from "react-router-dom";
-import UserStore from "../store/userStore";
+import UserStore from "../store/UserStore";
 import CartStore from "../store/CartStore";
 
 const Layout = () => {
