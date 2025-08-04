@@ -1,14 +1,13 @@
-import Herosection from "../components/Herosection";
+import HeroSection from "../components/HeroSection";
 import ProductLayout from "../components/ProductLayout";
 
 const HomePage = () => {
-
   return (
     <>
-      <Herosection/>
+      <HeroSection />
       <ProductLayout />
     </>
   );
 };
 
-export default HomePage
+export default HomePage;
